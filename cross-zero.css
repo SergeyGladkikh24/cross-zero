@@ -1,0 +1,65 @@
+
+.cross-zero{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.game-field_table{
+	margin-left: 200px;
+	margin-top: 100px;
+	border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+.game-field_table_td{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	font-size: 88px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.game-field_table_td:hover{
+	background-color: #e7e7e7;
+}
+
+.information-display{
+	width: 320px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.parag{
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.button-reset{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #ff3b00;
+    color: white;
+    margin-top: 20px;
+    width: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background-color 0.5s;
+}
+
+.information-of-movie{
+	margin-left: 300px;
+    margin-top: 31px;
+}
+
+.button-reset:hover{
+	background-color: red;
+}	

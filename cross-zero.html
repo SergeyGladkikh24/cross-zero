@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Крестики-нолики</title>
+	<link rel="stylesheet" href="cross-zero.css">
+</head>
+<body>
+	<section>
+		<div class="cross-zero">
+			<div class="game-field">
+				<table class="game-field_table">
+					<tr>
+						<td class="game-field_table_td" data-index = "0"></td>
+						<td class="game-field_table_td" data-index = "1"></td>
+						<td class="game-field_table_td" data-index = "2"></td>
+					</tr>
+					<tr>
+						<td class="game-field_table_td" data-index = "3"></td>
+						<td class="game-field_table_td" data-index = "4"></td>
+						<td class="game-field_table_td" data-index != "5"></td>
+					</tr>
+					<tr>
+						<td class="game-field_table_td" data-index = "6"></td>
+						<td class="game-field_table_td" data-index = "7"></td>
+						<td class="game-field_table_td" data-index = "8"></td>
+					</tr>
+				</table>
+			</div>	
+
+			<div class="information-display">
+				<p class="parag">Колличество выйгрышей x: <span id="win-x"></span></p>
+				<p class="parag">Колличество выйгрышей 0: <span id="win-o"></span></p>
+				<p class="parag">Колличество ничьих: <span id="draw"></span></p>
+			</div>
+		</div>
+		<div class="information-of-movie"></div>
+
+		<div class="button-reset">Начать сначала</div>
+	</section>
+
+</body>
+
+<script src="cross-zero.js"></script>
+</html>
